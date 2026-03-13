@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio website for [Your Name]">
-    <title>Portfolio - [Your Name]</title>
+    <meta name="description" content="Professional portfolio website for Chisela changala">
+    <title>Portfolio - Chisela Changala</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -33,7 +33,7 @@
                  - Active state indication
             -->
             <div class="nav__logo">
-                <a href="#home">[Your Name]</a>
+                <a href="#home">Chisela Changala</a>
             </div>
             <ul class="nav__menu">
                 <li><a href="#home">Home</a></li>
@@ -55,10 +55,10 @@
                  - Consider using Flexbox for layout
             -->
             <div class="hero__content">
-                <h1>Your Name</h1>
+                <h1 id="main-heading">Chisela Changala</h1>
                 <p class="hero__tagline">
                     <!-- TODO: Add your professional tagline -->
-                    Web Developer | Designer | Problem Solver
+                    Computer Science Student | Networking and Information Security | Web Development | Problem Solver
                 </p>
                 <a href="#contact" class="btn btn--primary">Get In Touch</a>
             </div>
@@ -66,42 +66,29 @@
 
         <!-- About Section -->
         <section id="about" class="about">
-            <!-- TODO: Create about section
-                 Requirements:
-                 - Section heading (h2)
-                 - Profile image with alt text
-                 - Professional bio (150+ words)
-                 - Skills list
-                 - Use CSS Grid or Flexbox for layout
-            -->
             <div class="container">
                 <h2>About Me</h2>
                 <div class="about__content">
                     <div class="about__image">
-                        <!-- TODO: Add your profile image -->
-                        <img src="images/profile-placeholder.jpg" alt="Profile photo of [Your Name]">
+                        <img src="IMG_E0957.jpg" alt="Profile photo of Chisela Chanagala">
                     </div>
                     <div class="about__text">
                         <p>
-                            <!-- TODO: Write your professional bio (150+ words)
-                                 Include:
-                                 - Your background
-                                 - Your interests in web development
-                                 - Your goals
-                                 - What makes you unique
-                            -->
-                            [Your professional bio goes here. Write at least 150 words about yourself,
-                            your background, your passion for web development, and your goals.
-                            This is your opportunity to introduce yourself to potential employers or clients.]
+                                I am a Computer Science student specializing in Networking and Information Security. I have a strong interest in technology and enjoy learning how software systems and networks work together to solve real-world problems.
+                                During my studies, I have developed skills in programming, web development, and computer networking. I enjoy building small projects that allow me to apply what I learn in class while improving my practical skills. Working with HTML, CSS, and JavaScript has helped me understand how modern websites are designed and developed.
+                                I am particularly interested in networking infrastructure, cybersecurity, and building reliable systems that help organizations operate more efficiently. I enjoy problem-solving and continuously exploring new technologies that expand my knowledge
+                                My goal is to grow as a technology professional and eventually contribute to building secure and efficient digital systems. Through continuous learning and practical experience, I aim to become a skilled developer and IT specialist capable of solving complex technical challenges.
                         </p>
                         <h3>Skills</h3>
-                        <ul class="skills-list">
-                            <!-- TODO: Add your skills -->
+                        <ul class="skills-list">>
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>JavaScript</li>
                             <li>Responsive Design</li>
-                            <!-- Add more skills -->
+                            <li>Git & GitHub</li>
+                            <li>Computer Networking</li>
+                            <li>Python</li>
+                            <li>Problem Solving</li>
                         </ul>
                     </div>
                 </div>
@@ -110,25 +97,19 @@
 
         <!-- Projects Section -->
         <section id="projects" class="projects">
-            <!-- TODO: Create projects section
-                 Requirements:
-                 - Section heading (h2)
-                 - Minimum 3 project cards
-                 - Each card: image, title, description, link(s)
-                 - Use CSS Grid for card layout
-            -->
             <div class="container">
-                <h2>My Projects</h2>
+                <h2>Featured Projects</h2>
                 <div class="projects__grid">
                     <!-- Project Card 1 -->
                     <article class="project-card">
                         <!-- TODO: Replace with your project -->
-                        <img src="images/project1-placeholder.jpg" alt="Screenshot of Project 1">
+                        <img src="Website dashboad.png" alt="Screenshot of responsive personal portfolio website">
                         <div class="project-card__content">
-                            <h3>Project Title 1</h3>
+                            <h3>Personal Portfolio Website</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A responsive personal portfolio website built using HTML and CSS.
+                                The website showcases my skills, projects, and contact information
+                                while demonstrating responsive design using Flexbox and CSS Grid.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -137,16 +118,16 @@
                         </div>
                     </article>
 
-                    <!-- Project Card 2 -->
                     <article class="project-card">
                         <!-- TODO: Replace with your project -->
-                        <img src="images/project2-placeholder.jpg" alt="Screenshot of Project 2">
+                        <img src="Simple network.png" alt="Diagram of basic computer network design simulation">
                         <div class="project-card__content">
-                            <h3>Project Title 2</h3>
+                            <h3>Network Design Simulation</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
-                            </p>
+                                A small networking project that demonstrates the design of a
+                                basic computer network using networking concepts such as
+                                routers, switches, and IP addressing.
+</p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
                                 <a href="#" class="btn btn--small btn--outline">GitHub</a>
@@ -154,19 +135,37 @@
                         </div>
                     </article>
 
-                    <!-- Project Card 3 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project3-placeholder.jpg" alt="Screenshot of Project 3">
+                        <img src="Starlink.jpg" alt="Starlink satellite internet installation setup">
                         <div class="project-card__content">
-                            <h3>Project Title 3</h3>
+                            <h3>Starlink Internet Installation</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                Installation and configuration of a Starlink satellite internet system
+                                to provide reliable high-speed connectivity. This project involved
+                                mounting the satellite dish, routing cables, configuring the wireless
+                                router, and testing network performance to ensure stable connectivity.
                             </p>
                             <div class="project-card__links">
-                                <a href="#" class="btn btn--small">Live Demo</a>
-                                <a href="#" class="btn btn--small btn--outline">GitHub</a>
+                                <a href="#" class="btn btn--small">Project Details</a>
+                                <a href="#" class="btn btn--small btn--outline">Photos</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="phoneselfrepair.webp" alt="Smartphone repair and hardware troubleshooting">
+                        <div class="project-card__content">
+                            <h3>Smartphone Repair and Troubleshooting</h3>
+                            <p>
+                                Diagnosis and repair of common smartphone hardware and software
+                                issues including screen replacement, battery replacement,
+                                charging port repairs, and system troubleshooting. The project
+                                involved identifying faults, safely disassembling devices, and
+                                restoring them to proper working condition.
+                            </p>
+                            <div class="project-card__links">
+                                <a href="#" class="btn btn--small">Project Details</a>
+                                <a href="#" class="btn btn--small btn--outline">Repair Gallery</a>
                             </div>
                         </div>
                     </article>
@@ -248,13 +247,15 @@
              - Back to top link (optional)
         -->
         <div class="container">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2025 Chisela Changala. All rights reserved.</p>
             <nav class="footer__social">
                 <!-- TODO: Add your social media links -->
-                <a href="#" aria-label="GitHub">GitHub</a>
-                <a href="#" aria-label="LinkedIn">LinkedIn</a>
-                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="https://github.com/AnimatedGearThingy" aria-label="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/chisela-changala-50b186302/" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://x.com/ASAP_10110" aria-label="Twitter">Twitter</a>
             </nav>
+
+            <a href="#home" class="back-to-top">Back to Top</a>
         </div>
     </footer>
 </body>
